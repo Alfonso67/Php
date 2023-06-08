@@ -51,7 +51,7 @@ Contributions to the Room Reservation System are welcome. If you find any issues
 
 Credits
 
-This project was developed by [Your Name]. If you have any questions or suggestions, please contact me at [your@email.com].
+This project was developed by Alfonso Verme. If you have any questions or suggestions, please contact me at alfo.verme67@gmail.com.
 
 ## License
 
