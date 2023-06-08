@@ -55,5 +55,3 @@ This project was developed by Alfonso Verme. If you have any questions or sugges
 ## License
 
 The Room Reservation System is open-source and released under the [MIT License](LICENSE).
-
-
