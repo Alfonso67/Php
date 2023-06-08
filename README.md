@@ -45,7 +45,6 @@ This is a simple room reservation system implemented using PHP and MySQL. It all
 - MySQL
 
 ## Contributing
-
 Contributions to the Room Reservation System are welcome. If you find any issues or have suggestions for improvements, please submit an issue or a pull request.
 
 Credits
