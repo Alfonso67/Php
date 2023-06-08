@@ -38,7 +38,6 @@ This is a simple room reservation system implemented using PHP and MySQL. It all
 - `view_bookings.php`: Displays the user's bookings and provides options to update or delete them.
 - `config.php`: Contains the database configuration settings.
 - `css/`: Directory containing CSS stylesheets.
-- `js/`: Directory containing JavaScript files.
 
 ## Dependencies
 
