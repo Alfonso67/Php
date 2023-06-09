@@ -1,0 +1,35 @@
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.unavailable-day {
+    background-color: #f2f2f2;
+}
+
+.availability-event {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-green {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-green:hover {
+    background-color: #45a049;
+}

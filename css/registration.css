@@ -1,0 +1,67 @@
+body {
+    font: 14px sans-serif;
+    background-color: #f8f8f8;
+}
+
+.wrapper {
+    width: 380px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group .help-block {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form-group .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-group .btn-default {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #333;
+}

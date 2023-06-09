@@ -1,0 +1,79 @@
+/* Global styles */
+
+/* Set box-sizing to border-box to include padding and borders in element widths */
+* {
+    box-sizing: border-box;
+}
+
+/* Responsive grid layout */
+
+/* Define a container for the grid */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 0 20px;
+    /* Add some padding to the container */
+}
+
+/* Define the grid columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    /* Adjust the negative margin to offset column padding */
+}
+
+/* Define the column width and add some padding */
+.col {
+    flex: 0 0 100%;
+    /* Default to full width for small screens */
+    padding: 0 10px;
+    /* Add some padding to each column */
+}
+
+/* Responsive media queries */
+
+/* Adjust the grid layout for medium-sized screens */
+@media (min-width: 768px) {
+    .col {
+        flex: 0 0 50%;
+        /* Half width for medium screens */
+    }
+}
+
+/* Adjust the grid layout for large screens */
+@media (min-width: 1200px) {
+    .col {
+        flex: 0 0 33.33%;
+        /* One-third width for large screens */
+    }
+}
+
+/* Additional responsive styles for different screen sizes */
+
+/* Example: Adjust font size for small screens */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        /* Decrease font size for small screens */
+    }
+}
+
+/* Example: Adjust margins for large screens */
+@media (min-width: 1200px) {
+    body {
+        margin: 0 40px;
+        /* Increase margins for large screens */
+    }
+}
+
+/* Example: Adjust image size for different screen densities */
+@media (min-resolution: 2dppx) {
+    img {
+        width: 200px;
+        /* Increase image size for high-density screens */
+    }
+}
