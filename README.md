@@ -38,10 +38,10 @@ This is a simple room reservation system implemented using PHP and MySQL. It all
 - `view_bookings.php`: Displays the user's bookings and provides options to update or delete them.
 - `config.php`: Contains the database configuration settings.
 - `css/`: Directory containing CSS stylesheets.
-- 'create_booking.php: allows admin users to make a reservation.
-- 'dashboard.php: allow the admin users to manage the system
-- 'manage_users.php: allow the admin users to manage registration users
-- 'calendar.php :is the same to index.php but is displayed in dashboard.php for diplaying the date of book.
+- 'create_booking.php': allows admin users to make a reservation.
+- 'dashboard.php': allow the admin users to manage the system
+- 'manage_users.php': allow the admin users to manage registration users
+- 'calendar.php' : is the same to index.php but is displayed in dashboard.php for diplaying the date of book.
 
 ## Dependencies
 
