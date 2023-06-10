@@ -27,6 +27,8 @@ This is a simple room reservation system implemented using PHP and MySQL. It all
 5. Make a booking by selecting a room and providing the necessary details.
 6. View and manage your bookings in the "My Bookings" section.
 7. Log out when you're done.
+8. for acces to the dashoboard the credential are: username user
+                pass:administrator
 
 ## File Structure
 
